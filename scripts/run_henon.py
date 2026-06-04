@@ -12,5 +12,5 @@ x, y = henon_map(x, y)
 x_lista.append(x)
 y_lista.append(y)
 plot_phase_space(x_lista, y_lista, "Atraktori i Henonit")
-if *name* == "*main*":
+if _name_ == "_main_":
 run()
