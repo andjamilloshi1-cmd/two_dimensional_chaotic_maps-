@@ -12,5 +12,5 @@ x, p = standard_map(x, p)
 x_lista.append(x)
 p_lista.append(p)
 plot_phase_space(x_lista, p_lista, "Standard Map")
-if *name* == "*main*":
+if __name__ == "__main__":
 run()
