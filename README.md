@@ -1,22 +1,19 @@
-# 🌀 Projekti: Harta Hénon & Standard Map
+# 🌀 Projekti: Harta Hénon dhe Standard Map
 
-Ky projekt është një studim mbi *dinamikën kaotike* në sistemet diskrete dy-dimensionale. 
+Ky është një projekt i thjeshtë për të modeluar dhe kuptuar lëvizjen kaotike të dy sistemeve fizike: Harta Hénon dhe Standard Map.
+
+## 📂 Si është organizuar puna:
+- *src/*: Këtu ndodhet pjesa kryesore e punës.
+  - *models/* ⚙️: Këtu kemi shkruar ekuacionet që bëjnë llogaritjet.
+  - *analysis/* 📊: Përdoret për të parë si ndryshon sistemi.
+  - *visualization/* 🎨: Këtu kemi bërë pjesën vizuale që të shohim grafikët.
+- *scripts/* 🚀: Këtu janë skedarët që nisin punën e simulimit.
+
+## 🛠️ Si ta përdorni:
+Për ta vënë në punë projektin, ju duhet të keni Python dhe libraritë e duhura. Mënyra më e thjeshtë është:
+1. Shkarkoni projektin.
+2. Hapni terminalin dhe shkruani: pip install -r requirements.txt
+3. Nisni punën duke hapur skedarët te folderi scripts/.
 
 ---
-
-## 📂 Struktura e Projektit
-Ne kemi organizuar kodin në mënyrë modulare për të garantuar pastërti dhe riprodhueshmëri:
-
-* *src/models/* ⚙️: Përmban "trurin" e projektit (ekuacionet matematikore).
-* *src/analysis/* 📊: Përmban analizat e ndjeshmërisë ndaj kushteve fillestare.
-* *src/visualization/* 🎨: Modulet për shndërrimin e të dhënave në grafikë.
-* *scripts/* 🚀: Skriptet kryesore për të ekzekutuar eksperimentet.
-
----
-
-## 🛠️ Si të filloni
-Për të ekzekutuar këtë projekt në makinën tuaj, ndiqni këto hapa të thjeshtë:
-
-1. *Instaloni varësitë:*
-   ```bash
-   pip install -r requirements.txt
+Punoi: Andja Milloshi
